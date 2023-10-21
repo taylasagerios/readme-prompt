@@ -49,3 +49,10 @@ inquirer
         message: "What email address should people use to contact you?"
     }, 
 ])
+.then((responses) => {
+    var readmeText = genReadme(responses)
+    fs.writeFile('README.md', readmeText, (err) =>
+        err ? console.error(err) : console.log('Success!')
+    );
+
+})
