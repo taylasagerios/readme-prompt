@@ -43,4 +43,9 @@ inquirer
         name: "githubName",
         message: "What is your github user name?"
     },
+    {
+        type: "input",
+        name: "email",
+        message: "What email address should people use to contact you?"
+    }, 
 ])
