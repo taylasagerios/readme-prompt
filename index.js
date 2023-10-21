@@ -28,4 +28,9 @@ inquirer
         message: "What license should your project use?",
         choices: ['MIT', "Apache", "Artistic", "none"]
     },
+    {
+        type: "input",
+        name: "contribution",
+        message: "How do you contribute to this project?"
+    },
 ]}
