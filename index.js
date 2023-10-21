@@ -56,3 +56,6 @@ inquirer
     );
 
 })
+function genReadme(answers){
+    
+}
