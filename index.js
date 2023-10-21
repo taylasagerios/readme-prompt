@@ -7,5 +7,9 @@ inquirer
         name: "title",
         message: "What is the title of your project?"  
     },
-    
+    {
+        type: "input",
+        name: "description",
+        message: "What is a description of your project?"
+    },
 ]}
