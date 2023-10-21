@@ -38,4 +38,9 @@ inquirer
         name: "test",
         message: "How do you test in this project?"
     },
+    {
+        type: "input",
+        name: "githubName",
+        message: "What is your github user name?"
+    },
 ])
