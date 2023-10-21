@@ -1,7 +1,7 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 inquirer
-.prompt{[
+.prompt([
     {
         type: "input",
         name: "title",
@@ -33,4 +33,9 @@ inquirer
         name: "contribution",
         message: "How do you contribute to this project?"
     },
-]}
+    {
+        type: "input",
+        name: "test",
+        message: "How do you test in this project?"
+    },
+])
