@@ -57,5 +57,8 @@ inquirer
 
 })
 function genReadme(answers){
-    
+    console.log(answers)
+    var readmeTxt = ""
+    readmeTxt += `# Title
+    ${answers.title} 
 }
