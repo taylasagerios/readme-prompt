@@ -22,4 +22,10 @@ inquirer
         name: "usage",
         message: "How does a user use your project?"
     },
+    {
+        type: "list",
+        name: "license",
+        message: "What license should your project use?",
+        choices: ['MIT', "Apache", "Artistic", "none"]
+    },
 ]}
