@@ -12,4 +12,9 @@ inquirer
         name: "description",
         message: "What is a description of your project?"
     },
+    {
+        type: "input",
+        name: "install",
+        message: "How do you install your project?"
+    },
 ]}
