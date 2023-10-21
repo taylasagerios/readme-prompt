@@ -17,4 +17,9 @@ inquirer
         name: "install",
         message: "How do you install your project?"
     },
+    {
+        type: "input",
+        name: "usage",
+        message: "How does a user use your project?"
+    },
 ]}
